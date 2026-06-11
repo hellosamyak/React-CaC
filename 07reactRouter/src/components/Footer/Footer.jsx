@@ -1,5 +1,9 @@
 import { Link } from "react-router";
 
+function getCurrentYear() {
+  return new Date().getFullYear();
+}
+
 export default function Footer() {
   return (
     <footer className="border-t border-white/10 bg-slate-950/80 text-slate-300 backdrop-blur-xl">
@@ -79,12 +83,12 @@ export default function Footer() {
         <hr className="my-8 border-white/10" />
         <div className="sm:flex sm:items-center sm:justify-between">
           <span className="text-sm text-slate-400 sm:text-center">
-            © 2023
+            © {getCurrentYear()}
             <a
               href="https://github.com/hellosamyak.com/"
               className="transition hover:text-white"
             >
-              hellosamyak
+              samyakjain
             </a>
             . All Rights Reserved.
           </span>
