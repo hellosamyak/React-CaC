@@ -3,7 +3,7 @@ import { useParams } from "react-router";
 function User() {
   const { userid } = useParams();
   return (
-    <section className="mx-auto max-w-3xl rounded-[2rem] border border-white/10 bg-white/5 p-8 text-center shadow-2xl shadow-black/20 backdrop-blur">
+    <section className="mx-auto max-w-3xl rounded-4xl border border-white/10 bg-white/5 p-8 text-center shadow-2xl shadow-black/20 backdrop-blur">
       <p className="text-xs font-semibold uppercase tracking-[0.24em] text-slate-400">
         Dynamic route
       </p>
