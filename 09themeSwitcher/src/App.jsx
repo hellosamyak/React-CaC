@@ -25,7 +25,7 @@ function App() {
         <nav className="border-b border-gray-200 dark:border-gray-800">
           <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              <div className="w-8 h-8 bg-gradient-to-br from-orange-400 to-pink-500 rounded-lg"></div>
+              <div className="w-8 h-8 bg-linear-to-br from-orange-400 to-pink-500 rounded-lg"></div>
               <h2 className="text-xl font-bold text-gray-900 dark:text-white">
                 ModernKnow
               </h2>
